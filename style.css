@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-01{
+    min-height: 100vh;
+    background: url(./3000936-2560x1600-cloud-horizon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0px 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+
+.navbar ul li{
+    display: inline;
+    margin-left: 48px;
+}
+
+.navbar ul li a{
+    text-decoration: rgb(13, 46, 79);
+    color: rgb(50, 15, 15);
+}
+
+.Section-Text{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: RIGHT;
+    margin-left: 250px;
+    
+
+}
+
+
+
+.Section-Text p{
+    font-size: 35px;
+    padding-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Thanks{
+    text-decoration: none;
+    color: rgb(80, 15, 15);
+    background: none;
+    border: none;
+    font-size: 35px;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
